@@ -81,7 +81,7 @@ int main(){
     q.emplace(2);
 
     // 弹出元素
-    while(!queue.empty()){
+    while(!q.empty()){
         int val;
         q.pop(val);
         std::cout << val << std::endl;
